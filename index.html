@@ -24,7 +24,7 @@
 
   <body>
     <!-- header section start  -->
-    <header class="header-bg py-1">
+    <header class="header-bg py-1 ">
       <!-- navbar  -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
@@ -69,8 +69,8 @@
 
       <!-- header container  -->
       <section class="container">
-        <div class="row my-5 d-flex align-items-center">
-          <div class="col-lg-7">
+        <div class="row d-flex align-items-center my-5 py-3">
+          <div class="col-lg-7 col-sm-12 ">
             <p class="text-white">
               Computer-controlled digital transistorized with electronic advance
             </p>
@@ -132,8 +132,8 @@
             </div>
             <!-- modal end -->
           </div>
-          <div class="col-lg-5">
-            <img src="images/header-bike.png" />
+          <div class="col-lg-5 col-sm-12 pt-4">
+            <img class="img-fluid" src="images/header-bike.png" />
           </div>
         </div>
       </section>
@@ -149,15 +149,20 @@
           <h1 class="text-dark fw-bold">Fetured Bikes 2021</h1>
           <p class="fetured-bike-subtitle fw-bold">Best bike collection</p>
         </div>
-        <div class="d-flex justify-content-between mb-5 mt-5 pt-5 fetured-bike">
-          <img src="images/feature-bike.jpg" width="288" />
-          <img
-            class="fetured-bike-without-grayscale"
-            src="images/feature-bike.jpg"
-            alt=""
-            width="288"
-          />
-          <img src="images/feature-bike.jpg" alt="" width="288" />
+        <div class="row fetured-bike">
+          <div class="col-lg-4 col-sm-12 px-5 py-3">
+            <img class="img-fluid" src="images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 col-sm-12 px-5 py-3">
+            <img
+              class="img-fluid fetured-bike-without-grayscale"
+              src="images/feature-bike.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-sm-12 px-5 py-3">
+            <img class="img-fluid" src="images/feature-bike.jpg" alt="" />
+          </div>
         </div>
       </section>
       <!-- featured bike section end -->
@@ -240,21 +245,18 @@
 
       <!-- FAQ section  -->
 
-      <section class="container mb-5">
+      <section class="container mb-5 col-12">
         <h1 class="fw-bold text-center pt-5 mt-5">
           Frequently Asked <span style="color: #e76f51">Questions</span>
         </h1>
         <div class="row mt-5 pt-5 ms-4">
-          <div class="col-lg-5">
-            <img src="images/faq.png" width="431" />
+          <div class="col-lg-5 col-sm-12">
+            <img class="img-fluid" src="images/faq.png" width="431" />
           </div>
 
-           <!-- Frequently asked question start  -->
-          <div class="col-lg-7 my-2 ps-5">
-            <div
-              class="accordion ps-5 ms-1 my-2 py-4 ps-5"
-              id="accordionPanelsStayOpenExample"
-            >
+          <!-- Frequently asked question start  -->
+          <div class="col-lg-7 my-5  col-sm-12">
+            <div class="accordion mx-2" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button
@@ -327,13 +329,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button
-                    class="
-                      accordion-button
-                      collapsed
-                      text-dark
-                      fw-bold
-                      text-center
-                    "
+                    class="accordion-button collapsed text-dark fw-bold"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseTwo"

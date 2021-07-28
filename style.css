@@ -11,6 +11,14 @@ body {
 .header-bg {
   background-color: #264653;
 }
+
+/* nav items */
+
+.nav-item:hover{
+    background: #23a6f0;
+    border-radius: 5px;
+}
+
 /* login-button */
 .menu-login-btn {
   background-color: #e76f51;
@@ -18,9 +26,10 @@ body {
 /* Header honda subtitle  */
 .header-honda-subtitle {
   color: #e0e0e0;
-  width: 456px;
+  line-height: 30px;
 }
-
+ 
+ 
 /* modal button  */
 .modal-btn {
   background-color: #e76f51;

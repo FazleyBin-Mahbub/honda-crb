@@ -1,24 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- website title  -->
-    <title>Honda | Your Best Ride</title>
+    <title>Honda | Your Best Rides Partner</title>
     <!-- fav-icon  -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
 
     <!-- Css Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
 
+    <!-- fontawesome icons  -->
+    <script
+      src="https://kit.fontawesome.com/482a3a2752.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- header section start  -->
+    <header class="header-bg py-1">
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- nav-links  -->
+            <ul class="navbar-nav ms-auto mt-2 text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              <button
+                type="button"
+                class="btn btn-primary ms-5 menu-login-btn border-0"
+              >
+                Login
+              </button>
+            </ul>
+            <!-- nav-links end -->
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end  -->
+
+      <!-- header container  -->
+      <section class="container">
+        <div class="row my-5 d-flex align-items-center">
+          <div class="col-lg-7">
+            <p class="text-white">
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1 class="text-white fw-bold">Honda CBR 300R</h1>
+            <p class="header-honda-subtitle">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="modal-btn border-0 text-white rounded-3"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Are you sure to purchase this?
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body fw-bold">Confirm Purchase</div>
+                  <div class="ms-auto me-3 my-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-danger me-3 ps-4 pe-4"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-outline-success text-capitalize ps-4 pe-4"
+                    >
+                      Yes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- modal end -->
+          </div>
+          <div class="col-lg-5">
+            <img src="images/header-bike.png" />
+          </div>
+        </div>
+      </section>
+      <!-- header container end  -->
+    </header>
+    <!-- header section end  -->
+
+    <!-- main section  -->
+    <main>
+      <!-- featured bike section  -->
+      <section class="container mt-5">
+        <div class="fetured text-center">
+          <h1 class="text-dark fw-bold">Fetured Bikes 2021</h1>
+          <p class="fetured-bike-subtitle fw-bold">Best bike collection</p>
+        </div>
+        <div class="d-flex justify-content-between mb-5 mt-5 pt-5 fetured-bike">
+          <img src="images/feature-bike.jpg" width="288" />
+          <img
+            class="fetured-bike-without-grayscale"
+            src="images/feature-bike.jpg"
+            alt=""
+            width="288"
+          />
+          <img src="images/feature-bike.jpg" alt="" width="288" />
+        </div>
+      </section>
+      <!-- featured bike section end -->
+
+      <!-- happy clients section  -->
+      <section class="container pt-5">
+        <h1 class="fw-bolder text-center pt-5">
+          Happy <span class="happy-clients-span-txt">Clients says</span>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <!-- clients  -->
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="images/user-1.png"
+                  class="card-img-top clients-img-1"
+                />
+                <div class="card-body">
+                  <p class="clients-says">
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal for the month and year.
+                  </p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <h6 class="fw-bold clients-name pt-3">Regina Miles</h6>
+                  <h6 class="fw-bold pt-3">Banker</h6>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="images/user-2.png"
+                  class="card-img-top clients-img-2"
+                />
+                <div class="card-body">
+                  <p class="clients-says">
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal for the month and year.
+                  </p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <h6 class="fw-bold clients-name pt-3">Regina Miles</h6>
+                  <h6 class="fw-bold pt-3">Banker</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="images/user-3.jpg"
+                  class="card-img-top clients-img-3 mt-5 rounded-circle"
+                />
+                <div class="card-body">
+                  <p class="clients-says">
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal for the month and year.
+                  </p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <h6 class="fw-bold clients-name pt-3">Regina Miles</h6>
+                  <h6 class="fw-bold pt-3">Banker</h6>
+                </div>
+                <!-- clients end  -->
+              </div>
+            </div>
+          </div>
+        </h1>
+      </section>
+      <!-- happy clients section end  -->
+
+      <!-- FAQ section  -->
+
+      <section class="container mb-5">
+        <h1 class="fw-bold text-center pt-5 mt-5">
+          Frequently Asked <span style="color: #e76f51">Questions</span>
+        </h1>
+        <div class="row mt-5 pt-5 ms-4">
+          <div class="col-lg-5">
+            <img src="images/faq.png" width="431" />
+          </div>
+
+           <!-- Frequently asked question start  -->
+          <div class="col-lg-7 my-2 ps-5">
+            <div
+              class="accordion ps-5 ms-1 my-2 py-4 ps-5"
+              id="accordionPanelsStayOpenExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button text-dark fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    What are the most important things I should know about
+                    riding a bike?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    If your looking for cycling not motorcycling <br />
+                    <br />
+
+                    For that first you must understand the types of bicycles
+                    <br />
+                    <br />
+
+                    <ul>
+                      <li>Road Cycle</li>
+                      <li>Mountain Cycle</li>
+                      <li>Hybrid Cycle</li>
+                    </ul>
+                    Choice of above will depend on the purpose of your cycling
+                    interest. <br />
+                    <br />
+
+                    Like if you wish to use cycle for office commute you choose
+                    road cycles which suits for plain roads, pavements most of
+                    the leveled surface. Or if you like adventure climbing
+                    mountains or off road drive mountain cycles will be apt. Or
+                    your clueless what to choose try hybrid cycles it will fit
+                    almost all the use case. <br />
+                    <br />
+
+                    If your wondering about prerequisites for cycling then
+                    <br />
+                    <br />
+
+                    <ul>
+                      <li>Helmet</li>
+                      <li>Front and rear lights ( reflector aleast)</li>
+                      <li>Cycling Gloves</li>
+                      <li>Cycle Lock</li>
+                      <li>Shoes</li>
+                      <li>Water bottle holder with bottle</li>
+                      <li>Waist pouch or Bike Bag</li>
+                      <li>Check brakes and Tyre pressure</li>
+                      <li>
+                        GPS enabled devices (Smartphone with good Cycling app
+                        Runtatic)
+                      </li>
+                      <li>
+                        You can wear most anything to ride a bike. But, clothes
+                        especially designed for riding are a wonder.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="
+                      accordion-button
+                      collapsed
+                      text-dark
+                      fw-bold
+                      text-center
+                    "
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    How can I tell if my helmet is old and I need a new one?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    Bear in mind that if the helmet did its job most people
+                    would tell you that they did not even hit their head, or did
+                    not hit their head that hard. And the thin shells on most
+                    helmets now tend to hide any dents in the foam. But if you
+                    can see marks on the shell or measure any foam crush at all,
+                    replace the helmet.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed text-dark fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    Before going on a long ride, take your bike around the block
+                    and make sure it is safe to ride. First of all, your tires
+                    are going to be deflated, it is normal after long periods of
+                    time on storage. Inflate them close to the recommended
+                    level, you can find that in the wall of the tire. Make sure
+                    your brakes work. First do it off your bike, make sure the
+                    brake pads make contact with the rim or the rotor
+                    appropriately. Then do it with while riding your bike around
+                    the block. Make sure you test it with enough speed, but do
+                    it safely
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed text-dark fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    What rules should I follow when riding my bike?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <strong>When riding, always:</strong>
+                    <ul>
+                      <li>
+                        Go With the Traffic Flow. Ride on the right in the same
+                        direction as other vehicles. ...
+                      </li>
+                      <li>
+                        Obey All Traffic Laws. A bicycle is a vehicle and you're
+                        a driver. ...
+                      </li>
+                      <li>Yield to Traffic When Appropriate. ...</li>
+                      <li>Be Predictable. ...</li>
+                      <li>Stay Alert at All Times. ...</li>
+                      <li>Look Before Turning. ...</li>
+                      <li>Watch for Parked Cars.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently asked section end  -->
+    </main>
     <!-- Bootstrap Script  -->
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

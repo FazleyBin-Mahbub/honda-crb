@@ -86,3 +86,31 @@ body {
 .money-back-subtitle {
   line-height: 30px;
 }
+
+/* review form  */
+.user-review-section {
+  border: 1px solid #e0e0e0;
+  margin: 15px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
+.review-form {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+ /* footer section  */
+footer {
+  background-color: black;
+}
+.footer-title {
+  color: white;
+}
+.footer-subtitle {
+  color: white;
+  font-size: 12px;
+  text-align: justify;
+
+  line-height: 20px;
+}

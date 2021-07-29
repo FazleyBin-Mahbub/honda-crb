@@ -52,8 +52,7 @@ body {
   color: #e76f51;
 }
 
-.clients-img
- {
+.clients-img {
   width: 149px;
   margin: 35px auto;
 }
@@ -77,4 +76,13 @@ body {
 /* accordition  */
 .accordion-body {
   color: gray;
+}
+
+/* money back section  */
+
+.money-back-section {
+  background-color: #264653;
+}
+.money-back-subtitle {
+  line-height: 30px;
 }

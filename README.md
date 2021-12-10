@@ -1,3 +1,3 @@
-# honda-cbr-bootstrap-assignment-FazleyBin-Mahbub
-honda-cbr-bootstrap-assignment-FazleyBin-Mahbub created by GitHub Classroom
+# honda-cbr-bootstrap
+
 <h1> Honda CBR </h1>
